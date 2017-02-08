@@ -6,7 +6,7 @@ minetest.register_globalstep(function(_)
 				if player:get_player_control().up == false then
 					minetest.after(0.05, function()
 						if player:get_player_control().up == true then
-							player:set_physics_override(1.5, 1, 1)
+							player:set_physics_override(2.0, 1, 1)
 							player_running_physics[player:get_player_name()] = true
 						end
 					end)
