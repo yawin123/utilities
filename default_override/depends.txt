@@ -1,0 +1,6 @@
+default
+dye
+fire
+farming
+stairs
+beds
