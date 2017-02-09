@@ -1,3 +1,8 @@
+--[[
+  This command is a extract from ServerTools mod (by Octacian): https://github.com/octacian/servertools
+  License: MIT
+]]--
+
 vanished_players = {}
 
 minetest.register_chatcommand("vanish", {

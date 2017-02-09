@@ -1,8 +1,3 @@
--- Minetest 0.4 mod: default
--- See README.txt for licensing and other information.
-
--- The API documentation in here was moved into doc/lua_api.txt
-
 local path = minetest.get_modpath("default_override")
 
 -- Definitions made by this mod that other mods can use too

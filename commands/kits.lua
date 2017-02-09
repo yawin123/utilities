@@ -1,6 +1,6 @@
  minetest.register_chatcommand("kit", {
     params = "",
-    description = "Add a Kit to player",
+    description = "Adds a Kit to player",
     privs = {},
     func = function(name)
 		local receiverref = core.get_player_by_name(name)

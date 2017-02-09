@@ -1,3 +1,7 @@
+--[[
+  I don't know from where is that command
+]]--
+
 minetest.register_chatcommand("timeset", {
 	params = "<0...24000>",
 	description = "set time of day",

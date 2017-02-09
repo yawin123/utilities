@@ -1,3 +1,7 @@
+--[[
+  I don't know from where is that command
+]]--
+
 player_running_physics = {}
 minetest.register_globalstep(function(_)
 	for _,player in ipairs(minetest.get_connected_players()) do

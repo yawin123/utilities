@@ -1,3 +1,7 @@
+--[[
+  I don't know from where is that command
+]]--
+
 INFO_BLANK = "To find out more about certain items type the command '/info' with the params 'update', 'version', 'creative', 'suprise'"
 INFO_VERSION = "0.1"
 INFO_UPDATE = "Nothing ATM"

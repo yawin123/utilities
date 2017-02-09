@@ -1,6 +1,3 @@
--- Boilerplate to support localized strings if intllib mod is installed.
-local S
-
 local bedrock_layer = {}
 
 bedrock_layer.layer = -1000
@@ -8,9 +5,9 @@ bedrock_layer.node = {name = "default_override:bedrock"}
 
 minetest.register_on_generated(function(minp, maxp)
 	if maxp.y >= bedrock_layer.layer and minp.y <= bedrock_layer.layer then
-		local vm, emin, emax = minetest.get_mapgen_object("voxelmanip")
+		local vm, edgemin, edgemax = minetest.get_mapgen_object("voxelmanip")
 		local data = vm:get_data()
-		local area = VoxelArea:new({MinEdge=emin, MaxEdge=emax})
+		local area = VoxelArea:new({MinEdge=edgemin, MaxEdge=edgemax})
 		local c_bedrock = minetest.get_content_id("default_override:bedrock")
 
 		for x = minp.x, maxp.x do
