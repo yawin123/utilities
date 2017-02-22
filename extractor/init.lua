@@ -227,3 +227,11 @@ minetest.register_abm({
 		end
 	end,
 })
+minetest.register_craft({
+	output = "extractor:extractor",
+	recipe = {
+		{"","default:steel_ingot",""},
+		{"default:steel_ingot","default:chest","default:steel_ingot"},
+		{"default:steel_ingot","","default:steel_ingot"},
+	}
+})
