@@ -18,7 +18,7 @@ minetest.register_node("extractor:extractor", {
 	groups = {oddly_breakable_by_hand = 3},
 	drawtype = "nodebox",
 	paramtype = "light",
-	tiles = {"extractor_outside.png"},
+	tiles = {"extractor.png"},
 	selection_box = {type="regular"},
 	node_box = {
 		type = "fixed",
