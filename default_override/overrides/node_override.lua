@@ -1,5 +1,9 @@
 -- mods/default_override/nodes_override.lua
 
+minetest.override_item("default:stone_with_iron", {
+	drop = "default:stone_with_iron",
+})
+
 minetest.override_item("default:cactus", {
 	drawtype = "nodebox",
 	tiles = {"default_cactus_top.png", "default_cactus_bottom.png", "default_cactus_side.png","default_cactus_side.png","default_cactus_side.png","default_cactus_side.png"},
